@@ -2,6 +2,10 @@ body {
 	background: #ececec;
 }
 
+
+p { font-family: 'Faster One', cursive; }
+
+
 form.formular, .validationEngineContainer {
 	font-family: tahoma, verdana, "sans-serif";
 	font-size: 12px;

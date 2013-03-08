@@ -8,6 +8,9 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>JQuery Validation Engine</title>
 </head>
+<link rel="stylesheet" href="<c:url value="/static/css/template.css" />" type="text/css"/>
+
+<link href='http://fonts.googleapis.com/css?family=Faster+One' rel='stylesheet' type='text/css'>
 <body>
  <center>
 <h2>JQuery Examples</h2>

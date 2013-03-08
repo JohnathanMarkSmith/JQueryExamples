@@ -22,6 +22,8 @@
     <script src="<c:url value="/static/js/languages/jquery.validationEngine-en.js" />" type="text/javascript" charset="utf-8"></script>
     <script src="<c:url value="/static/js/jquery.validationEngine.js" />" type="text/javascript" charset="utf-8"> </script>
 
+    <link href='http://fonts.googleapis.com/css?family=Faster+One' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
  <center>
