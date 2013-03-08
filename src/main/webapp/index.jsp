@@ -1,41 +1,14 @@
 <html>
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <title>JQuery Validation Engine</title>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-
-    <link rel="stylesheet" href="./css/validationEngine.jquery.css" type="text/css"/>
-    <link rel="stylesheet" href="./css/template.css" type="text/css"/>
-
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-
-
-    <script src="./js/languages/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8">
-    </script>
-    <script src="./js/jquery.validationEngine.js" type="text/javascript" charset="utf-8">
-    </script>
-
-</head>
+    <title>JQuery Validation Example</title>
 <body>
- <center>
-<h2>JQuery Examples</h2>
- </center>
-<form id="formID" class="formular" method="post">
-    Name:  <input type="text" name="name" class="validate[required,minSize[3]] text-input" id="name"><br>
-    Phone(xxx)xxx-xxxxx: <input type="text" name="phone" class="validate[required, custom[phonenumber]] text-input" id="phone"><br>
-    Email: <input type="text" name="email" id="email" class="validate[required, custom[email]] text-input"><br>
-    <p>
-        <input type="submit" value="Save Text!">
-    </p>
-</form>
+This is the JQuery Validation Example with Spring MVC... <p>
 
- <script>
-     jQuery(document).ready(function(){
-         // binds form submission and fields to the validation engine
-         jQuery("#formID").validationEngine();
-     });
+<b>Please  <a href="./request">click here</a>  to start</b>
 
- </script>
 
 </body>
+
+
 </html>
