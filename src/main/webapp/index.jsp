@@ -18,11 +18,11 @@
 </head>
 <body>
  <center>
-<h2>JQueryExamples</h2>
+<h2>JQuery Examples</h2>
  </center>
 <form id="formID" class="formular" method="post">
     Name:  <input type="text" name="name" class="validate[required,minSize[3]] text-input" id="name"><br>
-    Phone: <input type="text" name="phone" class="validate[required, custom[phone]] text-input" id="phone"><br>
+    Phone(xxx)xxx-xxxxx: <input type="text" name="phone" class="validate[required, custom[phonenumber]] text-input" id="phone"><br>
     Email: <input type="text" name="email" id="email" class="validate[required, custom[email]] text-input"><br>
     <p>
         <input type="submit" value="Save Text!">
