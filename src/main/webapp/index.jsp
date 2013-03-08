@@ -14,13 +14,7 @@
     </script>
     <script src="./js/jquery.validationEngine.js" type="text/javascript" charset="utf-8">
     </script>
-    <script>
-        jQuery(document).ready(function(){
-            // binds form submission and fields to the validation engine
-            jQuery("#formID").validationEngine();
-        });
 
-    </script>
 </head>
 <body>
  <center>
@@ -28,13 +22,17 @@
  </center>
 <form id="formID" class="formular" method="post">
     Name:  <input type="text" name="name" class="validate[required] text-input" id="name"><br>
-    Phone: <input type="text" name="phone" class="validate[phone] text-input" id="phone"><br>
-    Email: <input type="text" name="email" id="email" class="validate[email] text-input"><br>
-
-    <label>
-        <span>Field is required : </span>
-        <input value="" class="validate[required] text-input" type="text" name="req" id="req" />
-    </label>
+    Phone: <input type="text" name="phone" class="validate[required, custom[phone]] text-input" id="phone"><br>
+    Email: <input type="text" name="email" id="email" class="validate[required, custom[email]] text-input"><br>
 </form>
+
+ <script>
+     jQuery(document).ready(function(){
+         // binds form submission and fields to the validation engine
+         jQuery("#formID").validationEngine();
+     });
+
+ </script>
+
 </body>
 </html>
