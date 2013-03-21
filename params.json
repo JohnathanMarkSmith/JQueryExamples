@@ -1,0 +1,1 @@
+{"name":"Jqueryexamples","tagline":"","body":"JQueryExamples\r\n==============\r\n\r\nThis is just a one JSP page example that demos some JQuery stuff\r\n\r\n\r\nTo run project\r\n\r\ncd JQueryExamples.git\r\n\r\n\r\nmvn tomcat7:run\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
